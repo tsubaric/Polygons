@@ -4,6 +4,7 @@ import java.lang.Math;
 Create a class called Triangle that uses the Polygon interface;
     Assume this is a right triangle
 
+    double  a, b, c;
 
 Must have a default constructor that sets:
     a = 3
