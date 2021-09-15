@@ -1,6 +1,7 @@
 /*
     Polygon Interface: Any class that inherits a Interface must implement
-    these methods
+    these methods.
+    DON'T MAKE ANY CHANGES IN THIS FILE
  */
 public interface Polygon {
 
