@@ -3,12 +3,10 @@ import static org.junit.Assert.assertEquals;
 
 public class TestRectangle {
     Rectangle R;
-
     public void init()
     {
         R = new Rectangle(6,2);
     }
-
     @Test
     public void test_default_toString(){
         init();
@@ -16,7 +14,6 @@ public class TestRectangle {
         String actual = "Rectangle width & height: 6.0, 2.0";
         assertEquals(actual, returnvalue);
     }
-
     @Test
     public void getter_width(){
         init();
@@ -24,5 +21,4 @@ public class TestRectangle {
         R.setWidth(3);
         assertEquals(R.getWidth(),3,0);
     }
-
 }

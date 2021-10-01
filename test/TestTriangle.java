@@ -8,7 +8,6 @@ public class TestTriangle {
     {
         t = new Triangle(3,4,5);
     }
-
     @Test
     public void test_toString(){
         init();
@@ -16,7 +15,6 @@ public class TestTriangle {
         String actual = "Triangle edge lengths: 3.0, 4.0, 5.0";
         assertEquals(actual, returnvalue);
     }
-
     @Test
     public void GS_A(){
         init();
