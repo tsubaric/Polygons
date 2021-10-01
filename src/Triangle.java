@@ -1,5 +1,4 @@
 import java.lang.Math;
-
 public class Triangle implements Polygon{
     protected double a;
     protected double b;
